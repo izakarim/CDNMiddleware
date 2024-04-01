@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YH2NNlJW6lWBnUdOR6tNFnkpo+Ad9M/XywGBFAGYJ+c=",
+  "Source": "CDNMiddleware.DataAccess",
+  "BasePath": "_content/CDNMiddleware.DataAccess",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

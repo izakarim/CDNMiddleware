@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CDNMiddleware.Api.props" />
+</Project>
