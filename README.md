@@ -18,7 +18,7 @@ The solution contain 3 projects based on functionality.
 3. Data Access  
    Contain database queries and connection.
 
-## Try it out using 
+## Try it out 
 *  Run dotnet ef --startup-project ../CDNMiddleware.Api/ migrations script --idempotent -o script.sql --context CDNMiddlewareDbContext
 *  In RDBMS database, Create database CDNMiddleware. Copy all from script.sql and run the query.
 *  Run CDNMiddleware.Api
