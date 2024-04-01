@@ -19,4 +19,5 @@ The solution contain 3 projects based on functionality.
    Contain database queries and connection.
 
 ## Try it out using 
-*  http://localhost:port/swagger/index.html
+*  Run CDNMiddleware.Api
+*  Try Api using http://localhost:port/swagger/index.html
