@@ -19,7 +19,8 @@ The solution contain 3 projects based on functionality.
    Contain database queries and connection.
 
 ## Try it out 
-*  Run dotnet ef --startup-project ../CDNMiddleware.Api/ migrations script --idempotent -o script.sql --context CDNMiddlewareDbContext
-*  In RDBMS database, Create database CDNMiddleware. Copy all from script.sql and run the query.
+*  Run dotnet ef --startup-project ../CDNMiddleware.Api database update --context CDNMiddlewareDbContext to update database.
+*  OR Run dotnet ef --startup-project ../CDNMiddleware.Api/ migrations script --idempotent -o script.sql --context CDNMiddlewareDbContext. In RDBMS database, Create database CDNMiddleware. Copy all from script.sql and run the query.
+*  I'm using second way to update the database if the project have more than one environment. I want to avoid from accidental update Production database.
 *  Run CDNMiddleware.Api
 *  Try Api using http://localhost:port/swagger/index.html
