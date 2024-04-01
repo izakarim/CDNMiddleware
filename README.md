@@ -19,5 +19,7 @@ The solution contain 3 projects based on functionality.
    Contain database queries and connection.
 
 ## Try it out using 
+*  Run dotnet ef --startup-project ../CDNMiddleware.Api/ migrations script --idempotent -o script.sql --context CDNMiddlewareDbContext
+*  In RDBMS database, Create database CDNMiddleware. Copy all from script.sql and run the query.
 *  Run CDNMiddleware.Api
 *  Try Api using http://localhost:port/swagger/index.html
